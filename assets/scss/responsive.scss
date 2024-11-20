@@ -1,0 +1,529 @@
+// Tablet
+@media only screen and (max-width: 575px) {
+    #b_body {
+        .news-info {
+            .news-head {
+                top: -16px !important;
+                a {
+                    font-size: 18px !important;
+                }
+            }
+        }
+
+        .b_video {
+            .news-info {
+                .news-content {
+                    .big-vidContent {
+                        width: 380px;
+                        bottom: -10px !important;
+
+                        >i {
+                            font-size: 10px !important;
+                            padding: 8px 10px 8px 10px !important;
+                        }
+
+                        .vid-title {
+                            font-size: 16px !important;
+                        }
+
+                        button {
+                            display: none;
+                        }
+                    }
+                }
+
+                .other-vid {
+                    .groupOtherVid {
+                        display: block !important;
+                        width: 100%;
+
+                        .other-vid-1 {
+                            width: 100% !important;
+                            height: auto;
+                        }
+
+                        .other-vid-2 {
+                            width: 100% !important;
+                            border: none;
+                            margin-top: 50px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .news-info {
+        .news-head {
+            a {
+                font-size: 24px !important;
+            }
+        }
+    }
+
+    #b_body {
+
+
+        .b_prominent {
+            .b_search {
+                display: block !important;
+
+                .groupTitleIcon {
+                    width: 228px;
+                    margin-left: auto;
+                    margin-right: auto;
+                    text-align: center;
+
+                    .search_title {
+                        display: flex;
+                        width: 100%;
+
+                        :nth-child(1) {
+                            width: 120px;
+                            height: 40px;
+                        }
+
+                        :nth-child(2) {
+                            display: flex;
+                            align-items: center;
+                            font-size: 18px;
+                            margin-left: 18px;
+                        }
+                    }
+
+                    .pre-angle-icon-js {
+                        display: none;
+                    }
+                }
+
+                .owl-1 {
+                    width: 100%;
+                    margin-left: auto;
+                    margin-right: auto;
+
+                    .owl-nav {
+                        text-align: center;
+
+                        button {
+                            border: 1px solid #ccc;
+                            font-size: 20px;
+                            border-radius: 50%;
+                            margin: 5px;
+
+                            span {
+                                width: 32px;
+                                height: 32px;
+                                padding: 10px 14px;
+                                vertical-align: middle;
+                            }
+                        }
+                    }
+                }
+
+                .next-angle-icon-js {
+                    display: none !important;
+                }
+            }
+        }
+    }
+
+    #footer {
+        .f-info {
+            .f-image{
+                img{
+                    width: 100px;
+                }
+            }
+            .f-main {
+                .col-info-1 {
+                    display: block !important;
+
+                    .f-infoName {
+                        width: 100% !important;
+                    }
+                }
+
+                .col-info-2 {
+                    display: block !important;
+
+                    .f-register {
+                        width: 100% !important;
+                    }
+                }
+            }
+        }
+
+        .f-footer {
+            ul {
+                justify-content: left;
+            }
+        }
+    }
+}
+
+@media (max-width: 991px) {
+
+    // responsive 
+    #header {
+        margin-left: 15px;
+
+        .h-GroupWeatherDat {}
+
+        .h__left {
+            width: 40px;
+
+            .menuIcon-js {
+                img {
+                    display: inline;
+                }
+
+                .bar {
+                    display: none;
+                }
+            }
+
+            .searchIcon-js {
+                display: none;
+            }
+
+            .day-Of-Week-js {
+                display: none !important;
+            }
+        }
+
+        .searchInput-js{
+            top: 20px;
+            input{
+                padding: 6px 15px;
+            }
+            i{
+                display: none;
+            }
+        }
+
+        .h__mid {
+            img {
+                width: 100px;
+                margin-top: 10px;
+            }
+        }
+
+        .h__right {
+            width: 40px;
+            border: none;
+
+            p {
+                display: none;
+            }
+        }
+
+        .h-row_2 {
+            ul {
+                li {
+                    a {
+                        padding: 0 15px;
+                    }
+                }
+            }
+        }
+
+        .widget {
+            display: block;
+        }
+    }
+
+
+
+    #b_body {
+        margin-left: 15px;
+
+        .b_prominent {
+            .b_search {
+                display: flex;
+            }
+        }
+
+        .b_edu-news {
+            .news-info {
+                .news-content {
+                    .col_left {
+                        .text {
+                            position: static;
+                            margin-top: 15px;
+                            height: auto;
+                            background: #fff;
+
+                            a {
+                                color: #000;
+                                padding: 0 0 15px 0;
+                                border-bottom: 1px solid #ccc;
+                            }
+                        }
+                    }
+
+                    .col_mid {
+                        .news-edu-extra {
+                            padding: 15px 0;
+
+                            :nth-child(1) {
+                                width: 28%;
+
+                                img {
+                                    width: 100%;
+                                }
+                            }
+
+                            .text {
+                                margin-top: -4px;
+                                width: 69%;
+
+                                a {
+                                    font-size: 18px;
+                                    font-weight: 700;
+                                    color: #333;
+                                }
+                            }
+                        }
+                    }
+
+                    .col_right {
+                        .news-edu-extra {
+                            padding: 15px 0;
+
+                            :nth-child(1) {
+                                width: 28%;
+
+                                img {
+                                    width: 100%;
+                                }
+                            }
+
+                            .text {
+                                margin-top: -4px;
+                                width: 69%;
+
+                                a {
+                                    font-size: 18px;
+                                    font-weight: 700;
+                                    color: #333;
+                                }
+                            }
+
+                        }
+                    }
+                }
+            }
+
+        }
+
+        .b_edu-cons-news {
+            .news-info {
+                .news-content {
+                    .col_left {
+                        .text {
+                            position: static;
+                            margin-top: 15px;
+                            height: auto;
+                            background: #fff;
+
+                            a {
+                                color: #000;
+                                padding: 0 0 15px 0;
+                                border-bottom: 1px solid #ccc;
+                            }
+                        }
+                    }
+
+                    .col_mid {
+                        .news-edu-cons-extra {
+                            padding: 15px 0;
+
+                            :nth-child(1) {
+                                width: 28%;
+
+                                img {
+                                    width: 100%;
+                                }
+                            }
+
+                            .text {
+                                margin-top: -4px;
+                                width: 69%;
+
+                                a {
+                                    font-size: 18px;
+                                    font-weight: 700;
+                                    color: #333;
+                                }
+                            }
+                        }
+                    }
+
+                    .col_right {
+                        .news-edu-cons-extra {
+                            padding: 15px 0;
+
+                            :nth-child(1) {
+                                width: 28%;
+
+                                img {
+                                    width: 100%;
+                                }
+                            }
+
+                            .text {
+                                margin-top: -4px;
+                                width: 69%;
+
+                                a {
+                                    font-size: 18px;
+                                    font-weight: 700;
+                                    color: #333;
+                                }
+                            }
+
+                        }
+                    }
+                }
+            }
+
+        }
+
+        .b_edu-skills {
+            .news-describe {
+                display: none;
+            }
+        }
+
+        .b_video {
+            .news-info {
+                .news-content {
+                    .big-vidContent {
+                        left: 50%;
+                        transform: translateX(-50%);
+                    }
+
+                    .group-vid {
+                        margin-left: auto;
+                        display: block !important;
+
+                        .group-vidInfo {
+                            padding-top: 80px;
+                        }
+                    }
+
+                }
+
+                .other-vid {
+                    position: static;
+                    width: 100%;
+                    padding: 0 15px;
+
+                    .other-vidTitle {
+                        padding-top: 20px;
+                        width: 100%;
+
+                        p {
+                            font-size: 18px;
+                            color: #1B75BC;
+                        }
+
+                        i {
+                            color: #333;
+                            border: 1px solid #000;
+                        }
+                    }
+
+                    .groupOtherVid {
+                        display: flex;
+                        justify-content: space-between;
+
+                        .owl-carousel {
+                            img {
+                                height: auto;
+                                max-height: 200px;
+                            }
+                        }
+
+                        .other-vid-1 {
+                            border-bottom: none;
+                            width: 50%;
+                            padding: 0 10px;
+
+                            .vid-title {
+                                color: #333;
+                            }
+                        }
+
+                        .other-vid-2 {
+                            padding-top: 0;
+                            width: 50%;
+                            padding: 0 10px;
+                            border-top: none;
+
+                            .vid-title {
+                                color: #333;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #footer {
+        margin-left: 15px;
+
+        .f-info {
+            .f-image{
+                img{
+                    width: 100px;
+                }
+            }
+            .f-main {
+                display: block !important;
+
+                .col-info-1 {
+                    max-width: 100%;
+
+                    .f-infoName {
+                        width: 48%;
+                    }
+
+                    .f-address {
+                        width: 48%;
+                        margin-right: 0;
+                    }
+                }
+
+                .col-info-2 {
+                    max-width: 100%;
+
+                    .f-register {
+                        width: 48%;
+                    }
+
+                    .f-contact {
+                        width: 48%;
+                    }
+                }
+            }
+        }
+
+        .f-footer {
+            display: block !important;
+            text-align: center;
+            ul{
+                text-align: center;
+                justify-content: center;
+                flex-wrap: wrap;
+                li{
+                    flex-wrap: wrap;
+                }
+            }
+        }
+    }
+
+}
